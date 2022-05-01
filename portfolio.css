@@ -13,11 +13,22 @@ body {
     gap: 15px;
     display: flex;
     flex: 1 1 auto;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.links {
+    background-color: whitesmoke;
+    display: flex;
+    gap: 12px;
+}
 
-.container-four {
+.icons {
+    background-color: whitesmoke;
+    margin-left: 560px;
+}
+
+.container-two {
   padding-left: 15em;
   padding-right: 15em;
   padding-bottom: 15em;
@@ -55,8 +66,3 @@ body {
   to { border-color: purple; }
 }
 
-.container-three {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
