@@ -7,7 +7,7 @@ body {
 
 
  .container-one {
-  background-color: whitesmoke;
+  background-color: floralwhite;
     font-size: 15px;
     padding: 10px;
     gap: 15px;
@@ -18,14 +18,14 @@ body {
 }
 
 .links {
-    background-color: whitesmoke;
+    background-color: floralwhite;
     display: flex;
     gap: 12px;
 }
 
 .icons {
-    background-color: whitesmoke;
-    margin-left: 560px;
+    background-color: floralwhite;
+    margin-left: 517px;
 }
 
 .container-two {
@@ -66,3 +66,12 @@ body {
   to { border-color: purple; }
 }
 
+
+.footer {
+  background-color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
