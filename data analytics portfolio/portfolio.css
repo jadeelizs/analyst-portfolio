@@ -1,0 +1,77 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: floralwhite
+ }
+
+
+ .container-one {
+  background-color: floralwhite;
+    font-size: 15px;
+    padding: 10px;
+    gap: 15px;
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    background-color: floralwhite;
+    display: flex;
+    gap: 12px;
+}
+
+.icons {
+    background-color: floralwhite;
+    margin-left: 517px;
+}
+
+.container-two {
+  padding-left: 15em;
+  padding-right: 15em;
+  padding-bottom: 15em;
+  padding-top: 15em;
+  display: block;
+  flex: auto;
+}
+
+
+.container-b {
+  padding-top: 60px;
+  padding-right: 60px;
+  display: inline;
+}
+
+
+
+.typed-out{
+  display: flex;
+  overflow: hidden;
+  border-right: .15em solid purple;
+  white-space: nowrap;
+  animation: typing 2s steps(20, end) forwards, blinking .8s infinite;
+  font-size: 1.6rem;
+  width: 0;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 17% }
+}
+
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: purple; }
+}
+
+
+.footer {
+  background-color: whitesmoke;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
